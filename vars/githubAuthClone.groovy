@@ -1,7 +1,7 @@
-def call(String url, String branch, String CredId) {
+def call(String url, String branch, String cred) {
 git(
        branch: branch,
         url: url,
-        credentialsId: CredID
+        credentialsId: cred
    )
 }
